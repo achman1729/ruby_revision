@@ -2,8 +2,6 @@
 
 arr = [1, 2, 3, 4, 5]
 
-# puts "a" + "balloon"
-
 arr.each do |items|
     p items.to_s + "balloon"
 end
