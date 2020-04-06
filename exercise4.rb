@@ -5,10 +5,12 @@ def div_by_5(number)
         return true
     else
         return false
+    end
 end
 
 
 for i in 1..20 do
-    p div_by_5(i)    
+
+    p "number is #{i} and result is #{div_by_5(i)}" 
 end
 
